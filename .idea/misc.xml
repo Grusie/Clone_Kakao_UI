@@ -4,15 +4,32 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable-v24/plus_selector.xml" value="0.13697916666666668" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable-v24/shopping_selector.xml" value="0.13697916666666668" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable-v24/user_selector.xml" value="0.13697916666666668" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable-v24/view_selector.xml" value="0.13697916666666668" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable/chat_selector.xml" value="0.13697916666666668" />
         <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable/ic__talk_black.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable/ic__talk_black_24dp.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable/ic_chat_unselected.xml" value="0.13697916666666668" />
         <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable/ic_launcher_background.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable/ic_more_horiz_black_24dp.xml" value="0.13697916666666668" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable/ic_more_svgrepo_com__2_.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable/ic_more_svgrepo_com__3_.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable/ic_person_black_24dp.xml" value="0.25729166666666664" />
         <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable/ic_person_outline_black_24dp.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable/ic_plus_selected.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable/ic_plus_unselected.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable/ic_shopping_bag_black_24dp.xml" value="0.25729166666666664" />
         <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable/ic_talk_black_24dp.xml" value="0.25729166666666664" />
         <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/drawable/ic_visibility_black_24dp.xml" value="0.25729166666666664" />
-        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/layout/fragment_chat.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/layout/fragment_main.xml" value="0.12083333333333333" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/layout/fragment_plus.xml" value="0.12083333333333333" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/layout/fragment_user.xml" value="0.10364583333333334" />
         <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/layout/fragment_view.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/rbtjr/AndroidStudioProjects/Clone_Kakao_UI/app/src/main/res/layout/navigation_bottom_list.xml" value="0.264" />
       </map>
     </option>
   </component>
