@@ -26,6 +26,7 @@
 
     <style name="navigation_bottom_view">
         <item name="android:background">@color/light_white</item>
+        <item name="tabIndicatorColor">@color/light_white</item>
     </style>
 
     <style name="navigation_bottom_items">

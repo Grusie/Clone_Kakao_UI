@@ -40,7 +40,7 @@ class ViewFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = FragmentViewBinding.inflate(layoutInflater)
         binding.toolbarView.apply{
-            inflateMenu(R.menu.menu_user_fragment)
+            inflateMenu(R.menu.menu_view_fragment)
             title = "뷰"
         }
         return binding.root

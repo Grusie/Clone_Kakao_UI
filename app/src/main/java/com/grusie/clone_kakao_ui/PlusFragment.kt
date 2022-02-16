@@ -39,7 +39,7 @@ class PlusFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = FragmentPlusBinding.inflate(layoutInflater)
         binding.toolbarPlus.apply{
-            inflateMenu(R.menu.menu_user_fragment)
+            inflateMenu(R.menu.menu_plus_fragment)
             title = "더보기"
         }
         return binding.root

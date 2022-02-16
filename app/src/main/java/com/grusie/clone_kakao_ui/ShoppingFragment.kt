@@ -40,7 +40,7 @@ class ShoppingFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = FragmentShoppingBinding.inflate(layoutInflater)
         binding.toolbarShopping.apply{
-            inflateMenu(R.menu.menu_user_fragment)
+            inflateMenu(R.menu.menu_shopping_fragment)
             title = "쇼핑"
         }
         return binding.root

@@ -40,7 +40,7 @@ class ChatFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = FragmentChatBinding.inflate(layoutInflater)
         binding.toolbarChat.apply{
-            inflateMenu(R.menu.menu_user_fragment)
+            inflateMenu(R.menu.menu_chat_fragment)
             title = "채팅"
         }
         return binding.root
