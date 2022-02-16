@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.grusie.clone_kakao_ui.databinding.FragmentShoppingBinding
+import com.grusie.clone_kakao_ui.databinding.FragmentUserBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -21,6 +23,8 @@ class ShoppingFragment : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
 
+    lateinit var binding:FragmentShoppingBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -32,9 +36,14 @@ class ShoppingFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_shopping, container, false)
+        binding = FragmentShoppingBinding.inflate(layoutInflater)
+        binding.toolbarShopping.apply{
+            inflateMenu(R.menu.menu_shopping_fragment)
+            title = "쇼핑"
+        }
+        return binding.root
     }
 
     companion object {

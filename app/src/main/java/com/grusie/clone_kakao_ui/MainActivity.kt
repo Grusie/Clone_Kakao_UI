@@ -19,10 +19,12 @@ class MainActivity : AppCompatActivity() {
         configureBottomNavigation()
     }
 
+
     @SuppressLint("InflateParams")
     private fun configureBottomNavigation() {
         binding.fragmentList.adapter = MainFragmentStatePagerAdapter(supportFragmentManager, 5)
         binding.navigationBar.setupWithViewPager(binding.fragmentList)
+        binding.fragmentList.currentItem = CHAT_FRAG
 
         val navigationBottomList : View = this.layoutInflater.inflate(R.layout.navigation_bottom_list,null,false)
 

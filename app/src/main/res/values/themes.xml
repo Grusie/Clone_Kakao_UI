@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.Clone_Kakao_UI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/black</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -12,7 +12,24 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="materialButtonStyle">@style/btnNavigation</item>
+        <item name="android:textSize">15sp</item>
     </style>
 
+    <style name="toolbar">
+        <item name="iconTint">@color/black</item>
+    </style>
+
+    <style name="toolbarTitle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="navigation_bottom_view">
+        <item name="android:background">@color/light_white</item>
+        <item name="tabIndicatorColor">@color/light_white</item>
+    </style>
+
+    <style name="navigation_bottom_items">
+        <item name="tint">@color/black</item>
+    </style>
 </resources>
