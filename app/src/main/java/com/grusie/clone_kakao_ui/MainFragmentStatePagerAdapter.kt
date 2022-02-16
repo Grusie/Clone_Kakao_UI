@@ -10,7 +10,7 @@ const val VIEW_FRAG = 2
 const val SHOPPING_FRAG = 3
 const val PLUS_FRAG = 4
 
-class MainFragmentStatePagerAdapter(fm : FragmentManager, val fragmentCount : Int) : FragmentStatePagerAdapter(fm){
+class MainFragmentStatePagerAdapter(fm : FragmentManager, private val fragmentCount : Int) : FragmentStatePagerAdapter(fm){
     override fun getCount() = fragmentCount
 
     override fun getItem(position: Int): Fragment {
@@ -20,7 +20,7 @@ class MainFragmentStatePagerAdapter(fm : FragmentManager, val fragmentCount : In
             VIEW_FRAG -> return ViewFragment()
             SHOPPING_FRAG -> return ShoppingFragment()
             PLUS_FRAG -> return PlusFragment()
-            else -> return UserFragment()
+            else -> return ChatFragment()
         }
     }
 }

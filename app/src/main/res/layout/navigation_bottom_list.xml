@@ -6,9 +6,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="52dp"
+        android:layout_height="wrap_content"
         android:weightSum="5"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/navigation_bottom_items">
 
         <RelativeLayout
             android:id="@+id/btn_userFragment"
@@ -18,8 +19,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:src="@drawable/user_selector"
-                android:contentDescription="@string/img_error"/>
+                android:contentDescription="@string/img_error"
+                android:src="@drawable/user_selector" />
 
         </RelativeLayout>
 
@@ -31,8 +32,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:src="@drawable/chat_selector"
-                android:contentDescription="@string/img_error"/>
+                android:contentDescription="@string/img_error"
+                android:src="@drawable/chat_selector" />
 
         </RelativeLayout>
 
