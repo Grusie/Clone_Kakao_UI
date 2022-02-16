@@ -5,7 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toolbar
+import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.grusie.clone_kakao_ui.databinding.FragmentUserBinding
 
 // TODO: Rename parameter arguments, choose names that match
@@ -42,26 +43,16 @@ class UserFragment : Fragment() {
             inflateMenu(R.menu.menu_user_fragment)
             title = "친구"
         }
-        return binding.root
-    }
+        val datas = mutableListOf<String>()
+        for(i in 1..10) {
+            datas.add("Item $i")
+        }
+        binding.recyclerviewUserFragment.apply {
+            layoutManager = LinearLayoutManager(this@UserFragment.context)
+            adapter = UserAdapter(datas)
+            addItemDecoration(DividerItemDecoration(this@UserFragment.context,LinearLayoutManager.VERTICAL))
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment UserFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            UserFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+        }
+            return binding.root
+        }
     }
-}

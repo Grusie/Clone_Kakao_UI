@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">Clone_Kakao_UI</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="base_padding">8dp</string>
-    <string name="img_error">img error</string>
+    <dimen name="small">10sp</dimen>
+    <string name="img_error">img_error</string>
 </resources>

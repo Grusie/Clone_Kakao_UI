@@ -7,6 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#121212</color>
     <color name="white">#FFFFFF</color>
+    <color name="gray">#D6D6D6</color>
     <color name="light_white">#F6F6F6</color>
     <color name="light_black">#181818</color>
+    <color name="talk_music">#06CF40</color>
+    <color name="user_inner">#C1E1EC</color>
+    <color name="user_outer">#90CBDD</color>
 </resources>
